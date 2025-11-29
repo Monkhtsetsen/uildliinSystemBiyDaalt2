@@ -9,7 +9,7 @@ public class QuizSlide extends GradientSlide {
     public QuizSlide(String title, String question, String[] options, int correctIndex) {
         this.correctIndex = correctIndex;
         setLayout(new BorderLayout());
-        add(MemoryManagementShow.createHeader(title), BorderLayout.NORTH);
+        add(Main.createHeader(title), BorderLayout.NORTH);
 
         JPanel center = new JPanel();
         center.setOpaque(false);

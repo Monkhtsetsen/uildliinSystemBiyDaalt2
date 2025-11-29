@@ -4,7 +4,7 @@ import java.awt.*;
 public class FragmentationSlide extends GradientSlide {
     public FragmentationSlide() {
         setLayout(new BorderLayout());
-        add(MemoryManagementShow.createHeader("Дотоод ба гадаад фрагментаци"), BorderLayout.NORTH);
+        add(Main.createHeader("Дотоод ба гадаад фрагментаци"), BorderLayout.NORTH);
 
         JTextArea desc = new JTextArea(
                 "• Дотоод фрагментаци – хуваалтын доторх ашиглагдахгүй үлдэгдэл зай.\n" +

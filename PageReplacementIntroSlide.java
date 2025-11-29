@@ -4,7 +4,7 @@ import java.awt.*;
 public class PageReplacementIntroSlide extends GradientSlide {
     public PageReplacementIntroSlide() {
         setLayout(new BorderLayout());
-        add(MemoryManagementShow.createHeader("Page replacement алгоритмууд"), BorderLayout.NORTH);
+        add(Main.createHeader("Page replacement алгоритмууд"), BorderLayout.NORTH);
 
         JPanel center = new JPanel(new GridLayout(1, 3, 16, 0));
         center.setOpaque(false);

@@ -4,7 +4,7 @@ import java.awt.*;
 public class MemoryTypesSlide extends GradientSlide {
     public MemoryTypesSlide() {
         setLayout(new BorderLayout());
-        add(MemoryManagementShow.createHeader("Санах ойн төрөл"), BorderLayout.NORTH);
+        add(Main.createHeader("Санах ойн төрөл"), BorderLayout.NORTH);
 
         JPanel grid = new JPanel(new GridLayout(2, 2, 24, 24));
         grid.setOpaque(false);

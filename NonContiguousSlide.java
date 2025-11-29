@@ -4,7 +4,7 @@ import java.awt.*;
 public class NonContiguousSlide extends GradientSlide {
     public NonContiguousSlide() {
         setLayout(new BorderLayout());
-        add(MemoryManagementShow.createHeader("Холбогдмол бус хуваарилалт"), BorderLayout.NORTH);
+        add(Main.createHeader("Холбогдмол бус хуваарилалт"), BorderLayout.NORTH);
 
         JPanel center = new JPanel(new GridLayout(1, 2, 24, 0));
         center.setOpaque(false);

@@ -4,7 +4,7 @@ import java.awt.*;
 public class ContiguousPartitionSlide extends GradientSlide {
     public ContiguousPartitionSlide() {
         setLayout(new BorderLayout());
-        add(MemoryManagementShow.createHeader("Холбогдмол (contiguous) хуваалт"), BorderLayout.NORTH);
+        add(Main.createHeader("Холбогдмол (contiguous) хуваалт"), BorderLayout.NORTH);
 
         JPanel center = new JPanel() {
             @Override

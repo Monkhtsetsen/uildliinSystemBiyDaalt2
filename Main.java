@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * MemoryManagementShow - main presentation window that composes slides.
  */
-public class MemoryManagementShow extends JFrame {
+public class Main extends JFrame {
 
     private final CardLayout cardLayout = new CardLayout();
     private final JPanel cardPanel = new JPanel(cardLayout);
@@ -16,10 +16,10 @@ public class MemoryManagementShow extends JFrame {
     private final JLabel slideCounter = new JLabel("1 / 20");
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(MemoryManagementShow::new);
+        SwingUtilities.invokeLater(Main::new);
     }
 
-    public MemoryManagementShow() {
+    public Main() {
         super("Санах ойн удирдлага - Interactive Show");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setMinimumSize(new Dimension(1100, 700));
