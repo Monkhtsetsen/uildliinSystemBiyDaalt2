@@ -4,7 +4,7 @@ import java.awt.*;
 public class FitAlgorithmsSlide extends GradientSlide {
     public FitAlgorithmsSlide() {
         setLayout(new BorderLayout());
-        add(MemoryManagementShow.createHeader("Санах ойн хуваарилалтын алгоритмууд"), BorderLayout.NORTH);
+        add(Main.createHeader("Санах ойн хуваарилалтын алгоритмууд"), BorderLayout.NORTH);
 
         JPanel center = new JPanel(new GridLayout(1, 3, 16, 0));
         center.setOpaque(false);

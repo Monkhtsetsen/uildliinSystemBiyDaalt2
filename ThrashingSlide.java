@@ -4,7 +4,7 @@ import java.awt.*;
 public class ThrashingSlide extends GradientSlide {
     public ThrashingSlide() {
         setLayout(new BorderLayout());
-        add(MemoryManagementShow.createHeader("Thrashing – Page fault хэт их үед"), BorderLayout.NORTH);
+        add(Main.createHeader("Thrashing – Page fault хэт их үед"), BorderLayout.NORTH);
 
         JTextArea text = new JTextArea(
                 "Програмуудын working set RAM-д багтахгүй үед page fault маш их гарч, OS " +

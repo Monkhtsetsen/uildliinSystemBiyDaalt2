@@ -4,7 +4,7 @@ import java.awt.*;
 public class AllocationIntroSlide extends GradientSlide {
     public AllocationIntroSlide() {
         setLayout(new BorderLayout());
-        add(MemoryManagementShow.createHeader("Статик ба динамик хуваарилалт"), BorderLayout.NORTH);
+        add(Main.createHeader("Статик ба динамик хуваарилалт"), BorderLayout.NORTH);
 
         JPanel center = new JPanel(new GridLayout(1, 2, 30, 0));
         center.setOpaque(false);

@@ -14,7 +14,7 @@ public class FifoSimulationSlide extends GradientSlide {
 
     public FifoSimulationSlide() {
         setLayout(new BorderLayout());
-        add(MemoryManagementShow.createHeader("FIFO Page Replacement – Симуляц"), BorderLayout.NORTH);
+        add(Main.createHeader("FIFO Page Replacement – Симуляц"), BorderLayout.NORTH);
 
         frameHistory = new int[referenceString.length][frameCount];
         faultHistory = new boolean[referenceString.length];

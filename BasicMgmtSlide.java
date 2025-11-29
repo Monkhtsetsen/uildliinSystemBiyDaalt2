@@ -4,7 +4,7 @@ import java.awt.*;
 public class BasicMgmtSlide extends GradientSlide {
     public BasicMgmtSlide() {
         setLayout(new BorderLayout());
-        add(MemoryManagementShow.createHeader("Нэг хэрэглэгчийн / олон хэрэглэгчийн санах ойн загвар"),
+        add(Main.createHeader("Нэг хэрэглэгчийн / олон хэрэглэгчийн санах ойн загвар"),
                 BorderLayout.NORTH);
 
         JPanel center = new JPanel(new GridLayout(1, 2, 30, 0));

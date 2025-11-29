@@ -4,7 +4,7 @@ import java.awt.*;
 public class VirtualMemorySlide extends GradientSlide {
     public VirtualMemorySlide() {
         setLayout(new BorderLayout());
-        add(MemoryManagementShow.createHeader("Виртуал санах ой"), BorderLayout.NORTH);
+        add(Main.createHeader("Виртуал санах ой"), BorderLayout.NORTH);
 
         JPanel center = new JPanel() {
             @Override

@@ -4,7 +4,7 @@ import java.awt.*;
 public class LruConceptSlide extends GradientSlide {
     public LruConceptSlide() {
         setLayout(new BorderLayout());
-        add(MemoryManagementShow.createHeader("LRU алгоритмын санаа"), BorderLayout.NORTH);
+        add(Main.createHeader("LRU алгоритмын санаа"), BorderLayout.NORTH);
 
         JTextArea text = new JTextArea(
                 "LRU (Least Recently Used) алгоритм нь хамгийн сүүлд ашиглагдаагүй хуудсыг солих зарчимтай.\n\n" +

@@ -4,7 +4,7 @@ import java.awt.*;
 public class HierarchySlide extends GradientSlide {
     public HierarchySlide() {
         setLayout(new BorderLayout());
-        add(MemoryManagementShow.createHeader("Санах ойн шатлал"), BorderLayout.NORTH);
+        add(Main.createHeader("Санах ойн шатлал"), BorderLayout.NORTH);
 
         JPanel center = new JPanel() {
             @Override

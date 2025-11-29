@@ -4,7 +4,7 @@ import java.awt.*;
 public class PagingSegmentationSlide extends GradientSlide {
     public PagingSegmentationSlide() {
         setLayout(new BorderLayout());
-        add(MemoryManagementShow.createHeader("Хуудаслалт ба сегментац"), BorderLayout.NORTH);
+        add(Main.createHeader("Хуудаслалт ба сегментац"), BorderLayout.NORTH);
 
         String[] paging = {
                 "Физик санах ойг тогтмол хэмжээтэй frames болгон хуваана.",

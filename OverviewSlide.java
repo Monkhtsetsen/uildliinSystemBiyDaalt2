@@ -4,7 +4,7 @@ import java.awt.*;
 public class OverviewSlide extends GradientSlide {
     public OverviewSlide() {
         setLayout(new BorderLayout());
-        add(MemoryManagementShow.createHeader("Санах ойн удирдлага гэж юу вэ?"), BorderLayout.NORTH);
+        add(Main.createHeader("Санах ойн удирдлага гэж юу вэ?"), BorderLayout.NORTH);
 
         JPanel center = new JPanel() {
             @Override

@@ -4,7 +4,7 @@ import java.awt.*;
 public class FitSmallTableSlide extends GradientSlide {
     public FitSmallTableSlide() {
         setLayout(new BorderLayout());
-        add(MemoryManagementShow.createHeader("Жишээ хүснэгт – First / Best / Worst Fit"), BorderLayout.NORTH);
+        add(Main.createHeader("Жишээ хүснэгт – First / Best / Worst Fit"), BorderLayout.NORTH);
 
         String[] columns = { "Хуваалт ID", "Хэмжээ (KB)", "FirstFit", "BestFit", "WorstFit" };
         Object[][] data = {
