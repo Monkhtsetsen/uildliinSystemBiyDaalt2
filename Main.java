@@ -4,9 +4,6 @@ import java.awt.event.*;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * MemoryManagementShow - main presentation window that composes slides.
- */
 public class Main extends JFrame {
 
     private final CardLayout cardLayout = new CardLayout();
